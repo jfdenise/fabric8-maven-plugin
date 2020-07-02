@@ -12,6 +12,7 @@ io.fabric8.maven.enricher.fabric8.SpringBootHealthCheckEnricher
 io.fabric8.maven.enricher.fabric8.WildFlySwarmHealthCheckEnricher
 io.fabric8.maven.enricher.fabric8.QuarkusHealthCheckEnricher
 io.fabric8.maven.enricher.fabric8.ThorntailV2HealthCheckEnricher
+io.fabric8.maven.enricher.fabric8.WildFlyJarHealthCheckEnricher
 io.fabric8.maven.enricher.fabric8.KarafHealthCheckEnricher
 io.fabric8.maven.enricher.fabric8.VertxHealthCheckEnricher
 io.fabric8.maven.enricher.fabric8.WebAppHealthCheckEnricher

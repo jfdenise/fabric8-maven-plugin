@@ -1,0 +1,6 @@
+[[generator-wildfly-jar]]
+=== WildFly bootable JAR
+
+The WildFly bootable JAR generator detects a WildFly bootable JAR build.
+
+This generator is identical to the <<generator-java-exec,java-exec generator>>. It supports the  <<generator-options-common, common generator options>> and the <<generator-java-exec-options, `java-exec` options>>.

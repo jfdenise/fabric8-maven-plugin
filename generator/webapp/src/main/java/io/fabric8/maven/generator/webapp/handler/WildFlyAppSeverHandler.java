@@ -37,6 +37,7 @@ public class WildFlyAppSeverHandler extends AbstractAppServerHandler {
         return
             !MavenUtil.hasPlugin(project, "org.wildfly.swarm", "wildfly-swarm-plugin") &&
             !MavenUtil.hasPlugin(project, "io.thorntail", "thorntail-maven-plugin") &&
+            !MavenUtil.hasPlugin(project, "org.wildfly.plugins", "wildfly-jar-maven-plugin") &&
             (hasOneOf("**/WEB-INF/jboss-deployment-structure.xml",
                      "**/META-INF/jboss-deployment-structure.xml",
                      "**/WEB-INF/jboss-web.xml", "**/WEB-INF/ejb-jar.xml",
